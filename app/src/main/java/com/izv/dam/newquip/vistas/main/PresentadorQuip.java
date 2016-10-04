@@ -41,7 +41,6 @@ public class PresentadorQuip implements ContratoMain.InterfacePresentador{
 
     @Override
     public void onPause() {
-        this.modelo.close();
     }
 
     @Override
